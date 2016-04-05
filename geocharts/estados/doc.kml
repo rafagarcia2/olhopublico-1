@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name>ESTADOS DO BRASIL</name>
+	<description><![CDATA[<hr><br/><br/>
+		<font size="3" face="Verdana">Conheça os Estados do Brasil através de seus dados demográficos e econômicos.<p>
+		<hr><p><b>Fonte:   </b><a href="http://www.ibge.gov.br">IBGE</a></font>]]></description>
+	<styleUrl>#titleBallon</styleUrl>
+	<Style id="5537_off">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://www.ibge.gov.br/mapas/google/band_transp.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="5537">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#5537_off</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#5537_on</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="5537_on">
+		<IconStyle>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://www.ibge.gov.br/mapas/google/band_transp.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="titleBalloon">
+		<BalloonStyle>
+			<color>80ff8080</color>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<name>Acre</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ac">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=12">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ac.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ac_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-70.14883453663697</longitude>
+			<latitude>-8.96757408395306</latitude>
+			<altitude>0</altitude>
+			<range>768930.1936759715</range>
+			<tilt>-7.131674055466929e-015</tilt>
+			<heading>0.1929938565863846</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-70.28195260727132,-8.835695214542621,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alagoas</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=al">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=24">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_al.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/al_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-36.67350185378396</longitude>
+			<latitude>-9.637254231004521</latitude>
+			<altitude>0</altitude>
+			<range>304741.7528260927</range>
+			<tilt>-2.011396336282607e-013</tilt>
+			<heading>-0.01854497948338124</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-36.54204825273455,-9.724328542890188,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Amazonas</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=am">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=13">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_am.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/am_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-64.37773118298155</longitude>
+			<latitude>-3.690927691409078</latitude>
+			<altitude>0</altitude>
+			<range>2222044.633768578</range>
+			<tilt>-2.593690652661371e-014</tilt>
+			<heading>0.03361792283610966</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-64.65261999999999,-4.153799999999974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Amapá</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ap">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=16">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ap.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ap_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-52.16221084679215</longitude>
+			<latitude>1.498195090585579</latitude>
+			<altitude>0</altitude>
+			<range>1034792.200702448</range>
+			<tilt>-7.904494718422444e-015</tilt>
+			<heading>-0.02000563670793432</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-51.95549,1.443789999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bahia</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ba">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=27">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ba.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ba_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-41.93959204809428</longitude>
+			<latitude>-13.27035790416652</latitude>
+			<altitude>0</altitude>
+			<range>1747329.135759549</range>
+			<tilt>-1.638319569659601e-015</tilt>
+			<heading>0.04500558900303046</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-41.72199,-12.47408999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ceará</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ce">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=19">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ce.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ce_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-39.82276164405084</longitude>
+			<latitude>-5.335762356833554</latitude>
+			<altitude>0</altitude>
+			<range>929184.7332705432</range>
+			<tilt>3.336961025455915e-014</tilt>
+			<heading>-0.1628667466569</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-39.61762,-5.090849999999978,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Distrito Federal</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=df">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=37">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_df.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/df_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-47.77850406158982</longitude>
+			<latitude>-15.80655778831671</latitude>
+			<altitude>0</altitude>
+			<range>120006.0544452165</range>
+			<tilt>-4.03673394453237e-013</tilt>
+			<heading>0.02203240232571943</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-47.79685,-15.78066999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Espírito Santo</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=es">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=29">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_es.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/es_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-40.69916069471012</longitude>
+			<latitude>-19.54722759237296</latitude>
+			<altitude>0</altitude>
+			<range>611022.935348641</range>
+			<tilt>1.642042643669891e-013</tilt>
+			<heading>0.008144093756110816</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-40.48015402079354,-19.66147737501836,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Goiás</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ggo">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=36">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_go.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/go_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-48.7004908541213</longitude>
+			<latitude>-15.96956673448102</latitude>
+			<altitude>0</altitude>
+			<range>1163620.56097999</range>
+			<tilt>-1.889082723432509e-013</tilt>
+			<heading>0.004914209394240248</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-49.62333999999999,-16.04177999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Maranhão</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ma">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=17">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ma.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ma_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-45.30360985402346</longitude>
+			<latitude>-5.734466645366986</latitude>
+			<altitude>0</altitude>
+			<range>1548775.375433207</range>
+			<tilt>-8.52683981398627e-014</tilt>
+			<heading>0.00192652250561597</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-45.27859999999998,-5.055879999999993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Minas Gerais</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=mg">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=28">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_mg.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/mg_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-44.63125102603582</longitude>
+			<latitude>-18.52028978221927</latitude>
+			<altitude>0</altitude>
+			<range>1427031.389064072</range>
+			<tilt>1.879165730938291e-014</tilt>
+			<heading>-0.02349619938576646</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-44.67296999999999,-18.45573999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mato Grosso do Sul</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ms">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=38">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ms.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ms_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-53.95300493450558</longitude>
+			<latitude>-20.79985591778704</latitude>
+			<altitude>0</altitude>
+			<range>1205647.136318942</range>
+			<tilt>5.429697925726415e-014</tilt>
+			<heading>2.590073054575969</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-54.84502000000001,-20.32670999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mato Grosso</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=mt">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=35">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_mt.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/mt_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-55.21178712518764</longitude>
+			<latitude>-12.84390126943958</latitude>
+			<altitude>0</altitude>
+			<range>1823024.768274613</range>
+			<tilt>3.729021816862766e-014</tilt>
+			<heading>1.428050833082819</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-55.91235999999999,-12.94851999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pará</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=pa">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=15">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_pa.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/pa_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-52.98250341435804</longitude>
+			<latitude>-3.630795410049199</latitude>
+			<altitude>0</altitude>
+			<range>2085989.657078654</range>
+			<tilt>-4.491985893886842e-014</tilt>
+			<heading>0.006323520923447192</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-53.06459000000001,-3.974839999999993,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Paraíba</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=pb">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=22">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_pb.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/pb_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-36.60753406437299</longitude>
+			<latitude>-7.166975996639716</latitude>
+			<altitude>0</altitude>
+			<range>468512.0605359241</range>
+			<tilt>-1.106058809261557e-013</tilt>
+			<heading>-1.046977044109051</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-36.49425466148509,-7.297471843983988,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pernambuco</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=pe">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=23">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_pe.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/pe_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-38.01806913201497</longitude>
+			<latitude>-8.27294374863091</latitude>
+			<altitude>0</altitude>
+			<range>673864.0933582871</range>
+			<tilt>1.539561789190582e-014</tilt>
+			<heading>-0.4642208630537043</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-37.99566999999999,-8.324630000000004,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Piauí</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=pi">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=18">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_pi.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/pi_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-42.36303003085458</longitude>
+			<latitude>-6.70502942400419</latitude>
+			<altitude>0</altitude>
+			<range>1525614.184467884</range>
+			<tilt>-5.855523675250468e-015</tilt>
+			<heading>0.005801218827976295</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-42.96874,-7.387460000000004,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Paraná</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=pr">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=32">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_pr.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/pr_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-50.9180341804545</longitude>
+			<latitude>-24.61479690197188</latitude>
+			<altitude>0</altitude>
+			<range>779201.5740959931</range>
+			<tilt>-1.918099270256519e-015</tilt>
+			<heading>-0.05515970983179316</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-51.61613999999999,-24.63553999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rio de Janeiro</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=rj">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=30">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_rj.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/rj_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-43.00514195037392</longitude>
+			<latitude>-22.06769079699772</latitude>
+			<altitude>0</altitude>
+			<range>450524.9672736338</range>
+			<tilt>-2.08526001321377e-014</tilt>
+			<heading>-1.260183734917221</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-42.61268259336639,-22.43506641497727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rio Grande do Norte</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=rn">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=20">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_rn.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/rn_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-36.79315439685427</longitude>
+			<latitude>-5.895245190129598</latitude>
+			<altitude>0</altitude>
+			<range>396152.5289350774</range>
+			<tilt>3.001794672526957e-014</tilt>
+			<heading>-0.1272760596845909</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-36.67309,-5.83937999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rondônia</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=ro">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=11">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_ro.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/ro_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-62.3781807760865</longitude>
+			<latitude>-10.93420394990912</latitude>
+			<altitude>0</altitude>
+			<range>1005164.058190475</range>
+			<tilt>5.074109240679859e-014</tilt>
+			<heading>0.3411586284378561</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-62.84363999999998,-10.91142999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Roraima</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=rr">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=14">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_rr.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/rr_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-61.13444640511423</longitude>
+			<latitude>1.874056560434021</latitude>
+			<altitude>0</altitude>
+			<range>1136422.257451674</range>
+			<tilt>5.714528877061464e-015</tilt>
+			<heading>0.01920050886046451</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-61.39873999999999,2.084540000000019,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Rio Grande do Sul</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=rs">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=34">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_rs.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/rs_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-53.013530952659</longitude>
+			<latitude>-30.27237475659728</latitude>
+			<altitude>0</altitude>
+			<range>1272376.656947674</range>
+			<tilt>-6.411410116466499e-014</tilt>
+			<heading>-0.2082600267178365</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-53.31970999999999,-29.70562,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Santa Catarina</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=sc">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=33">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_sc.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/sc_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-50.92380591932911</longitude>
+			<latitude>-27.60018317928824</latitude>
+			<altitude>0</altitude>
+			<range>601506.8393944847</range>
+			<tilt>-3.612627533301287e-014</tilt>
+			<heading>-1.141714131685618</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-50.48016,-27.24596999999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sergipe</name>
+		<description><![CDATA[<hr><p><center><a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=se">ESTADOS@</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
+			<a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=26">SIDRA</a><p>
+			<img src="http://www.ibge.gov.br/estadosat/images/band_se.gif" width="63" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="http://www.ibge.gov.br/estadosat/images/se_1.jpg" width="63" height="40"></center>			
+			<hr>]]></description>
+		<LookAt>
+			<longitude>-37.41846195665303</longitude>
+			<latitude>-10.58566733234468</latitude>
+			<altitude>0</altitude>
+			<range>396702.4829840697</range>
+			<tilt>7.898212875321244e-013</tilt>
+			<heading>0.0028181497571393</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-37.3956349516407,-10.69673844617164,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>São Paulo</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=sp">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=31">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_sp.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/sp_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-48.62783190973015</longitude>
+			<latitude>-22.41533675035966</latitude>
+			<altitude>0</altitude>
+			<range>995592.1009668562</range>
+			<tilt>8.28121622225685e-014</tilt>
+			<heading>-0.03193786094670036</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-48.72847999999999,-22.26526999999998,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tocantins</name>
+		<description><![CDATA[<br><br><hr><br><table border=0 width=100%><tr><td align=center width=50%>
+			<a href="http://www.ibge.gov.br/estadosat/perfil.php?sigla=to">ESTADOS@</a>
+			</td><td align=center width=50%><a href="http://www.sidra.ibge.gov.br/bda/territorio/infounit.asp?codunit=21">SIDRA</a>
+			</td></tr><tr><td align=center><img src="http://www.ibge.gov.br/estadosat/images/band_to.gif" width="63" height="40">
+			</td><td align=center><img src="http://www.ibge.gov.br/estadosat/images/to_1.jpg" width="63" height="40">
+			</td></tr></table><hr>]]></description>
+		<LookAt>
+			<longitude>-48.17847196641271</longitude>
+			<latitude>-9.079068649776808</latitude>
+			<altitude>0</altitude>
+			<range>1521730.687543985</range>
+			<tilt>-2.749171823907768e-014</tilt>
+			<heading>-0.0824006013416015</heading>
+		</LookAt>
+		<styleUrl>#5537</styleUrl>
+		<Point>
+			<coordinates>-48.32959999999999,-10.14969999999999,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
