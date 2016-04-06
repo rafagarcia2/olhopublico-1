@@ -2,25 +2,87 @@
   <head>
     <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <meta charset="UTF-8">
     <script type='text/javascript'>
       google.load('visualization', '1', {'packages': ['geochart']});
       google.setOnLoadCallback(drawVisualization);
 
       function drawVisualization() {
         var data = google.visualization.arrayToDataTable([
-          ['latitude', 'longitude', 'nome', 'cor', 'quantidade'],
-          [-7.9, -70.14883453663697, 'Acre', 1, 500],
-          [-8.9, -70.14883453663697, 'Acre', 3, 1000]
-        ]);
+          /*
+          ['estado', 'total'],
+          ['Acre', 103824889.17],
+          ['Paraíba', 568819923.47],
+          ['Amazonas', 317801197.74],
+          ['Piauí', 513161768.43],
+          ['Mato Grosso', 370592320.98],
+          ['Maranhão', 928555798.33],
+          ['Roraima', 128445363.78],
+          ['Bahia', 1662352821.80],
+          ['Tocantins', 254964203.31],
+          ['Minas Gerais', 2205370859.49],
+          ['Paraná', 1156223163.38],
+          ['Alagoas', 445710400.24],
+          ['Rio Grande do Sul', 1199104815.68],
+          ['Rio de Janeiro', 1288492093.45],
+          ['Santa Catarina', 698079924.70],
+          ['Rondônia', 171771538.94],
+          ['Espírito Santo', 354752282.51],
+          ['Goiás', 705297253.68],
+          ['Sergipe', 287656834.46],
+          ['Pará', 866523115.67],
+          ['Ceará', 1026912698.43],
+          ['São Paulo', 2731397545.16],
+          ['Pernambuco', 860487678.77],
+          ['Amapá', 86146503.06],
+          ['Rio Grande do Norte', 424377486.32],
+          ['Mato Grosso do Sul', 333121865.84],
+          ['Distrito Federal', 527322541.15]
+          */
+          
+          ['Estado', 'Media por município', 'Total estadual'],
+          ['Acre', 4719313.14, 103824889.17],
+          ['Paraíba', 2550761.99, 568819923.47],
+          ['Amazonas', 5125825.77, 317801197.74],
+          ['Piauí', 2290900.75, 513161768.43],
+          ['Mato Grosso', 2628314.33, 370592320.98],
+          ['Maranhão', 4279058.98, 928555798.33],
+          ['Roraima', 8563024.25, 128445363.78],
+          ['Bahia', 3986457.61, 1662352821.80],
+          ['Tocantins', 1834274.84, 254964203.31],
+          ['Minas Gerais', 2585428.91, 2205370859.49],
+          ['Paraná', 2897802.41, 1156223163.38],
+          ['Alagoas', 4369709.81, 445710400.24],
+          ['Rio Grande do Sul', 2412685.75, 1199104815.68],
+          ['Rio de Janeiro', 14005348.84, 1288492093.45],
+          ['Santa Catarina', 2366372.63, 698079924.70],
+          ['Rondônia', 3303298.83, 171771538.94],
+          ['Espírito Santo', 4548106.19, 354752282.51],
+          ['Goiás', 2867062.01, 705297253.68],
+          ['Sergipe', 3835424.46, 287656834.46],
+          ['Pará', 6017521.64, 866523115.67],
+          ['Ceará', 5581047.27, 1026912698.43],
+          ['São Paulo', 4234724.88, 2731397545.16],
+          ['Pernambuco', 4676563.47, 860487678.77],
+          ['Amapá', 5384156.44, 86146503.06],
+          ['Rio Grande do Norte', 2541182.55, 424377486.32],
+          ['Mato Grosso do Sul', 4216732.48, 333121865.84],
+          ['Distrito Federal', 527322541.15, 527322541.15]
+          
+          ]);
         
         var opts = {
           region: 'BR',
           displayMode: 'markers',
           resolution: 'provinces',
           colorAxis:{
-          	values: [1, 2, 3],
-          	colors: ['blue', 'yellow', 'black']
+          	colors: ['blue', 'green', 'yellow', 'orange']
           },
+          legend: {
+            numberFormat: '###,###'
+          },
+          defaultColor: 'green',
+
           width: 640, 
           height: 480
         };
