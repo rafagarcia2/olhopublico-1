@@ -16,7 +16,7 @@ $(function () {
             text: 'Transferências por mês'
         },
         subtitle:{
-            text: "em Currais Novos"
+            text: "em Cerro-Corá"
         },
         xAxis: {
             categories: ['2015-Jan', '2015-Fev', '2015-Mar', '2015-Abr', '2015-Mai', '2015-Jun',
@@ -43,7 +43,6 @@ $(function () {
             }
         },
         legend: {
-            align: 'right',
             x: 0,
             verticalAlign: 'bottom',
             floating: false,
@@ -71,41 +70,47 @@ $(function () {
         },
         series: [
         {
-            type: 'column',
-            name: 'Saúde',
-            data: [671610.9, 729714.41, 1113762.9, 727562.66, 845774.52, 531948.5600000002, 685815.66, 974668.7000000002, 764872.2500000001, 754963.5700000001, 704185.4500000002, 654094.35],
-            color: Highcharts.getOptions().colors[0]
-        },
-        {
-            type: 'column',
-            name: 'Educação',
-            data: [494276.17000000004, 100606.91, 21008.59, 78505.17, 61475.10999999999, 403566.14, 267508.62, 438392.46, 61992.73999999999, 344527.53, 211156.33, 221445.11],
-            color: Highcharts.getOptions().colors[1]
-        },
-        {
-            type: 'column',
-            name: 'Encargos Especiais',
-            data: [2396970.71, 2772071.1199999996, 2795818.2300000004, 3568458.4899999998, 1764559.98, 2092810.0, 2890854.33, 2037196.5699999998, 2095926.2699999998, 2262745.7800000003, 2095703.8499999999, 2241042.28],
-            color: Highcharts.getOptions().colors[2]
-        },
-        {
-            type: 'column',
-            name: 'Direitos da Cidadania',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100000.0, 0],
-            color: Highcharts.getOptions().colors[3]
-        },
-        {
-            type: 'column',
-            name: 'Assistência Social',
-            data: [70034.04000000001, 133330.0, 2716.23, 90149.56, 187323.13999999998, 122177.02, 42429.14, 62472.54000000001, 53234.04000000001, 33600.0, 51000.0, 93683.54999999999],
-            color: Highcharts.getOptions().colors[4]
-        },
-        {
-            type: 'column',
-            name: 'Urbanismo',
-            data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 221825.0],
-            color: Highcharts.getOptions().colors[5]
-        },
+    type: 'column',
+    name: 'Desporto e Lazer',
+    data: [0, 0, 73125.0, 195000.0, 0, 0, 0, 0, 0, 0, 0, 0],
+    color: Highcharts.getOptions().colors[0]
+},
+{
+    type: 'column',
+    name: 'Encargos Especiais',
+    data: [878978.9899999999, 1004682.5700000001, 1473856.39, 867941.55, 1204857.6700000002, 934074.0, 1152668.57, 843882.9099999999, 874365.6799999999, 941715.84, 1165153.15, 734318.87],
+    color: Highcharts.getOptions().colors[1]
+},
+{
+    type: 'column',
+    name: 'Comércio e Serviços',
+    data: [63999.0, 0, 85234.5, 0, 0, 0, 0, 0, 0, 0, 53966.25, 127315.5],
+    color: Highcharts.getOptions().colors[2]
+},
+{
+    type: 'column',
+    name: 'Assistência Social',
+    data: [15500.0, 78532.76000000001, 19942.57, 20750.0, 34804.51, 58677.22, 42000.0, 52948.06, 9000.0, 0, 1748.42, 74188.32999999999],
+    color: Highcharts.getOptions().colors[3]
+},
+{
+    type: 'column',
+    name: 'Saúde',
+    data: [190659.0, 191207.06, 166915.56999999998, 229286.91000000003, 231957.3, 178456.66999999998, 240442.21, 237887.58, 195391.97, 220917.09, 353716.31, 263232.18],
+    color: Highcharts.getOptions().colors[4]
+},
+{
+    type: 'column',
+    name: 'Educação',
+    data: [183567.35, 179057.63, 42416.03, 37906.369999999995, 108257.91, 122196.09, 212011.73, 837789.63, 94554.77, 166685.18, 9530.15, 36334.090000000004],
+    color: Highcharts.getOptions().colors[5]
+},
+{
+    type: 'column',
+    name: 'Urbanismo',
+    data: [0, 0, 14788.92, 0, 0, 0, 0, 0, 0, 0, 67050.96, 27142.48],
+    color: Highcharts.getOptions().colors[6]
+},
         {
             name:'Média Estadual',
             type:'scatter',
