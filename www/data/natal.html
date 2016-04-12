@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<body>
+	<div data-role="page" id="line">
+		<script src="../js/jquery-2.2.2.min.js"></script>
+		<script src="../js/highcharts.js"></script>
+		<script src="../js/highcharts-more.js"></script>
+		<script src="../js/exporting.js"></script>
+		<script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.4.5.min.css" />
+		<meta charset="UTF-8">
+
+
+		<script type="text/javascript" src="../js/natal/line.js"></script>
+		<div  data-role="header">
+	        <div class="ui-controlgroup-controls" style="width:100%">
+	            <a href="#column" data-inline="true" data-transition="slide" data-direction="reverse" class="ui-btn ui-btn-left ui-btn-inline ui-icon-arrow-l ui-btn-icon-left" >Voltar</a>
+	            <a href="#stacked" data-inline="true" data-transition="slide" class="ui-btn ui-btn-right ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Total Mensal</a>
+	        </div>
+	    </div>
+		<div id="containerLine" style="min-width: 310px; margin: 45px auto"></div>
+	</div>
+
+
+	<div data-role="page" id="stacked">
+		<script type="text/javascript" src="../js/natal/stacked.js"></script>
+		<div  data-role="header">
+	        <div class="ui-controlgroup-controls" style="width:100%">
+	            <a href="#line" data-inline="true" data-transition="slide" data-direction="reverse" class="ui-btn ui-btn-left ui-btn-inline ui-icon-arrow-l ui-btn-icon-left" >Função por Mês</a>
+	            <a href="#byPopulation" data-inline="true" data-transition="slide" class="ui-btn ui-btn-right ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Gasto por Pupulação</a>
+	        </div>
+	    </div>
+		<div id="containerStacked" style="min-width: 310px; margin: 45px auto"></div>
+	</div>
+
+	<div data-role="page" id="byPopulation">
+		<script type="text/javascript" src="../js/natal/byPopulation.js"></script>
+		<div  data-role="header">
+	        <div class="ui-controlgroup-controls" style="width:100%">
+	            <a href="#stacked" data-inline="true" data-transition="slide" data-direction="reverse" class="ui-btn ui-btn-left ui-btn-inline ui-icon-arrow-l ui-btn-icon-left" >Total Mensal</a>
+	            <a href="../index.html" data-inline="true" data-transition="slide" data-ajax="false" class="ui-btn ui-btn-right ui-btn-inline ui-icon-home ui-btn-icon-right">Sair</a>
+	        </div>
+	    </div>
+		<div id="containerByPopulation" style="min-width: 310px; margin: 45px auto"></div>
+	</div>
+</body>
