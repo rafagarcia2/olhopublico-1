@@ -34,7 +34,7 @@ $(function () {
                     a = this.total.toFixed(2).replace(/./g, function(c, i, a) {
                         return i && c !== "." && ((a.length - i) % 3 === 0) ? ' ' + c : c;
                     });
-                    return "R$ "+a;
+                    //return "R$ "+a;  // Para o valor aparecer na tela --Removido para o App
                 }
             }
         },
